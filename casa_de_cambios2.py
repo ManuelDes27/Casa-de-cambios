@@ -23,7 +23,7 @@ dolares_recibidos = dolares - tasas_gestion
 print("\nMonto ingresado en euros por el usuario:", euros, "€.")
 print("Cantidad convertida a dólares:", dolares, "$.")
 print("Gastos de gestión:", tasas_gestion, "$.")
-print("Total a recibir:", dolares_recibidos, "$.")
+print("Total a retirar:", dolares_recibidos, "$.")
 
 
 
