@@ -20,10 +20,10 @@ dolares_recibidos = dolares - tasas_gestion
 
 # --- Imprimimos el desglose de la operación ---
 
-print("\nMonto ingresado en euros por el usuario:", euros, "€.")
-print("Cantidad convertida a dólares:", dolares, "$.")
-print("Gastos de gestión:", tasas_gestion, "$.")
-print("Total a retirar:", dolares_recibidos, "$.")
+print("\nMonto ingresado en euros por el usuario: {:.2f} €.".format(euros))
+print("Cantidad convertida a dólares: {:.2f} $.".format(dolares))
+print("Gastos de gestión: {:.2f} $.".format(tasas_gestion))
+print("Total a retirar: {:.2f} $.".format(dolares_recibidos))
 
 
 
